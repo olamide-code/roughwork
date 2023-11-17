@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.complete
+{
+
+    height: 50px;
+    cursor: pointer;
+    text-decoration: line-through;
+    color: brown;
+}
+.like i{
+    position: relative;
+    top: 0px;
+}
+.fa 
+{
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 1s;
+}
+span{
+    position: relative;
+    top: 100px;
+    color: green;
+    font-weight: 800;
+    font-size: 20px;
+ }
+ .like{
+    position: relative;
+    top: -80px;
+    left: 50px;
+ }
+#dislike
+{
+   position: relative;
+   left: 210px;
+   color: red;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    font-size: 60px;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+    top: 100px;
+ }
+ 
+    
+
+#btn
+{
+    color: white;
+}
+
+.toggle{
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 10px;
+ }
